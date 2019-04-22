@@ -1,0 +1,10 @@
+{{ $token := getenv "TOKEN" }}
+{{ $urlPre := "https://api.github.com" }}
+{{ $repos := getJSON $urlPre "/orgs/thenewdynamic/repos" (printf "?type=sources") (printf "&sort=full_name") (printf "&per_page=300") (printf "&access_token=") $token }}
+
+{{ range first 200 $repos }}
+  {{/*  <a href="{{ .html_url }}" target="_blank">{{ .full_name }}</a><br />  */}}
+  {{ .full_name }}<br />
+{{ end }}
+
+
