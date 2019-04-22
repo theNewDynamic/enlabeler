@@ -1,231 +1,221 @@
 {
   "labels": [
     {
-      "name":"priority: critical",
-      "color":"9f0000",
-      "description":"Priority level - highest priority and urgent"
+      "name": "Epic",
+      "color": "342596",
+      "description": "Group of related issues",
+      "legacy_names": ["Epic"]
+    },
+
+    {
+      "name": "Platform: LAMPstack",
+      "color": "e4e669",
+      "description": ""
     },
     {
-      "name":"priority: high",
-      "color":"e30303",
-      "description":"Priority level - takes precedence over medium and low priority issues",
-      "legacy_names": [
-        "priority"
-      ]
+      "name": "Technology: Forestry",
+      "color": "20c997",
+      "description": "",
+      "legacy_names": ["Forestry"]
     },
     {
-      "name":"priority: medium",
-      "color":"f2736f",
-      "description":"Priority level - default priority and indicates priority level has been determined"
+      "name": "Technology: Netlify",
+      "color": "00ad9e",
+      "description": ""
     },
     {
-      "name":"priority: low",
-      "color":"ffb3b3",
-      "description":"Priority level - lowest priority and should not take precedence over higher priority issues"
+      "name": "Technology: Hugo",
+      "color": "ff4088",
+      "description": ""
     },
+
     {
-      "name":"blocked",
-      "color":"1c6F87",
-      "description":"Status - issue is blocked by another issue or dependency"
+      "name": "Priority: Low",
+      "color": "F2BFBF",
+      "description": "",
+      "legacy_names": ["todo", "P-3", "enhancement", "good first issue"]
     },
+
     {
-      "name":"blocker",
-      "color":"1c6F87",
-      "description":"Status - issue is blocking other issue(s)"
+      "name": "Priority: Medium",
+      "color": "EB9999",
+      "description": "",
+      "legacy_names": ["P-2"]
     },
+
     {
-      "name":"stalled",
-      "color":"8edee7",
-      "description":"Status - work lacks documented progress"
+      "name": "Priority: High",
+      "color": "DB4D4D",
+      "description": "",
+      "legacy_names": ["Priority"]
     },
+
     {
-      "name":"question",
-      "color":"8edee7",
-      "description":"Status - a comment in this issue or pull request contains a request for further information",
-      "legacy_names":[
-        "question"
-      ]
+      "name": "Priority: Critical",
+      "color": "CC0000",
+      "description": "",
+      "legacy_names": ["P-1"]
     },
+
     {
-      "name":"needs estimate",
-      "color":"8edee7",
-      "description":"Status - please apply an estimate to this issue before proceeding"
+      "name": "Status: Bug",
+      "color": "B80000",
+      "description": "",
+      "legacy_names": ["Bug", "bug"]
     },
+
     {
-      "name":"changes requested",
-      "color":"8edee7",
-      "description":"Status - additional work is necessary"
+      "name": "Status: Duplicate",
+      "color": "B80000",
+      "description": "",
+      "legacy_names": ["Duplicate", "duplicate"]
     },
+
     {
-      "name":"has workaround",
-      "color":"8edee7",
-      "description":"Status - an alternative solution has been provided for the issue"
+      "name": "Status: Blocked",
+      "color": "FCA600",
+      "description": "Needs Information",
+      "legacy_names": ["Blocked", "question"]
     },
+
     {
-      "name":"duplicate",
-      "color":"8edee7",
-      "description":"Status - comparable issue or pull request already exists",
-      "legacy_names":[
-        "duplicate"
-      ]
+      "name": "Status: Discussion",
+      "color": "FDC14D",
+      "description": "",
+      "legacy_names": ["Discussion"]
     },
+
     {
-      "name":"recommendation",
-      "color":"8edee7",
-      "description":"Status - proposed work that requires authorization"
+      "name": "Status: Client Review",
+      "color": "FEDB99",
+      "description": "",
+      "legacy_names": ["Discussion"]
     },
+
     {
-      "name":"pattern",
-      "color":"a8d49a",
-      "description":"Job type: Front-end - development work in pattern library"
+      "name": "Inactive: On Hold",
+      "color": "E8E8E5",
+      "description": ""
     },
+
     {
-      "name":"theming",
-      "color":"a8d49a",
-      "description":"Job type: Front-end - development work in Drupal theme"
+      "name": "Inactive: Wont Fix",
+      "color": "EFEFED",
+      "description": "",
+      "legacy_names": ["invalid", "wontfix"]
     },
+
     {
-      "name":"migration",
-      "color":"dbff89",
-      "description":"Job type: Back-end - development work with Drupal Migrate API"
+      "name": "Inactive: Parking Lot",
+      "color": "F6F6F5",
+      "description": ""
     },
+
     {
-      "name":"drupal",
-      "color":"dbff89",
-      "description":"Job type: Back-end - Drupal site-building work"
+      "name": "Inactive: Waiting",
+      "color": "D1D1CE",
+      "description": "",
+      "legacy_names": ["Waiting"]
     },
+
     {
-      "name":"ux/design",
-      "color":"dbff89",
-      "description":"Job type: Design - creation of design artifacts, often outside of codebase"
+      "name": "Job: UX",
+      "color": "76AD00",
+      "description": ""
     },
+
     {
-      "name":"post-migration",
-      "color":"ffeb6d",
-      "description":"Job type: Content - work that needs to be performed after the migration"
+      "name": "Job: Content",
+      "color": "9FC64D",
+      "description": ""
     },
+
     {
-      "name":"translation",
-      "color":"ffeb6d",
-      "description":"Job type: Content - requires translation of content to another language"
+      "name": "Job: Authoring",
+      "color": "C8DE99",
+      "description": ""
     },
+
     {
-      "name":"content/data",
-      "color":"ffeb6d",
-      "description":"Job type: Content - requires adding or changing content, data, or users within the Drupal CMS"
+      "name": "Job: Code",
+      "color": "DDEBBF",
+      "description": ""
     },
+
     {
-      "name":"documentation",
-      "color":"ffdd00",
-      "description":"Job type: Other - work related to documentation outside of Drupal UI"
+      "name": "Job: Design",
+      "color": "6A9C00",
+      "description": ""
     },
+
     {
-      "name":"deployment",
-      "color":"ffa64d",
-      "description":"DevOps - issue type used to track preparation and deployment of release to an environment"
+      "name": "Job: Migration",
+      "color": "476800",
+      "description": ""
     },
+
     {
-      "name":"has manual deployment",
-      "color":"ffa64d",
-      "description":"DevOps - a manual deployment step has been documented in the pull request description",
-      "legacy_names": [
-        "manual deployment"
-      ]
+      "name": "Job: Documentation",
+      "color": "354E00",
+      "description": ""
     },
+
     {
-      "name":"hotfix",
-      "color":"ffa64d",
-      "description":"DevOps - deploy changes independently of work on scheduled release in develop branch"
+      "name": "Effort: 1",
+      "color": "C5E1ED",
+      "description": "",
+      "legacy_names": ["1"]
     },
+
     {
-      "name":"infrastructure",
-      "color":"ffa64d",
-      "description":"DevOps - setup or management of local, hosting or continuous integration environments"
+      "name": "Effort: 2",
+      "color": "9ACBDF",
+      "description": "",
+      "legacy_names": ["2"]
     },
+
     {
-      "name":"epic",
-      "color":"e684ad",
-      "description":"Planning - epic issues track the progress of multiple issues and can span releases (from ZenHub)"
+      "name": "Effort: 3",
+      "color": "6EB4D1",
+      "description": "",
+      "legacy_names": ["3"]
     },
+
     {
-      "name":"sprint planning",
-      "color":"e684ad",
-      "description":"Planning - work related to project planning"
+      "name": "Effort: 5",
+      "color": "63A2BC",
+      "description": "",
+      "legacy_names": ["5"]
     },
+
     {
-      "name":"retrospective",
-      "color":"e684ad",
-      "description":"Planning - issue thread dedicated to sprint or project retrospectives"
+      "name": "Supplementary: SEO",
+      "color": "29485D",
+      "description": ""
     },
+
     {
-      "name":"user story",
-      "color":"e684ad",
-      "description":"Planning - issue follows user story template: As a <user type>, I want to <task> so that <goal>"
+      "name": "Supplementary: Social",
+      "color": "697F8E",
+      "description": ""
     },
+
     {
-      "name":"revise issue",
-      "color":"e684ad",
-      "description":"Planning - issue description is vague, incomplete, or inaccurate"
+      "name": "Supplementary: Discovery",
+      "color": "254154",
+      "description": ""
     },
+
     {
-      "name":"security",
-      "color":"98aeff",
-      "description":"Supplementary - work related to security updates, audits or enhancements"
+      "name": "Supplementary: Performance",
+      "color": "192B38",
+      "description": ""
     },
+
     {
-      "name":"seo",
-      "color":"98aeff",
-      "description":"Supplementary - work specifically targeting Search Engine Optimization"
-    },
-    {
-      "name":"social",
-      "color":"98aeff",
-      "description":"Supplementary - implements social sharing features or analytics"
-    },
-    {
-      "name":"performance",
-      "color":"98aeff",
-      "description":"Supplementary - front-end or back-end performance improvements"
-    },
-    {
-      "name":"x-browser: edge",
-      "color":"98aeff",
-      "description":"Supplementary - cross-browser compatibility for MS Edge"
-    },
-    {
-      "name":"x-browser: ie10",
-      "color":"98aeff",
-      "description":"Supplementary - cross-browser compatibility for MS Internet Explorer 10"
-    },
-    {
-      "name":"x-browser: ie11",
-      "color":"98aeff",
-      "description":"Supplementary - cross-browser compatibility for MS Internet Explorer 11"
-    },
-    {
-      "name":"x-browser: safari",
-      "color":"98aeff",
-      "description":"Supplementary - cross-browser compatibility for Safari"
-    },
-    {
-      "name":"maintenance program",
-      "color":"98aeff",
-      "description":"Supplementary - monthly maintenance work"
-    },
-    {
-      "name":"discovery",
-      "color":"98aeff",
-      "description":"Supplementary - discovery and prototyping work"
-    },
-    {
-      "name":"multilingual",
-      "color":"98aeff",
-      "description":"Supplementary - work related to multilingual development"
-    },
-    {
-      "name":"search",
-      "color":"98aeff",
-      "description":"Supplementary - work related to internal site search"
+      "name": "Supplementary: Search",
+      "color": "12202A",
+      "description": ""
     }
   ]
 }
