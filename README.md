@@ -1,3 +1,14 @@
+# tND instructions
+
+1) Clone the enlaber repo to your local machine
+2) CD into the repo
+3) type `./enlabeler.sh` into the command line.
+4) You will be asked for your GitHub user name, your password (or token if you're using 2FA), and the repo org/name, e.g. `theNewDynamic/repo-name`
+5) When asked "Would you like to delete obsolete labels (Y/N):" type `Y`
+
+
+
+
 # Enlabeler
 
 Enlabeler is a script that adds, updates and removes the labels for a GitHub issue queue based on a standardized configuration file. Inspired by [this style guide](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/), Enlabeler's opinions are based on [Drupal](https://www.drupal.org/) website design and development and organize issue labels into the following groups:
