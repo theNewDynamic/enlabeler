@@ -53,7 +53,7 @@
     {
       "name": "Priority: Critical",
       "color": "CC0000",
-      "description": "",
+      "description": "use sparingly!",
       "legacy_names": ["P-1"]
     },
 
